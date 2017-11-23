@@ -7,10 +7,10 @@ $(function() {
 
 		var panelToShow = $(this).attr('rel');
 
-				$('section div.active').slideUp(200, function() {
+				$('section div.active').slideUp(300, function() {
 					$(this).removeClass('active');
 
-				$('#'+panelToShow).slideDown(200, function() {
+				$('#'+panelToShow).slideDown(300, function() {
 					$(this).addClass('active');
 			});
 		});
